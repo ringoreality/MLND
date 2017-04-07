@@ -1,0 +1,7 @@
+import Cube.py
+import Q.py
+
+agent = Q(5,0.5,0.5,0.5)
+for i in range(0,1000):
+    agent.train()
+    agent.test(1000,20)

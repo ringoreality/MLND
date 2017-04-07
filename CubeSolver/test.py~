@@ -1,0 +1,13 @@
+import time
+import sys
+
+class ProgressBar:
+	def __init__(self,width):
+		self.width = width
+		self.set(0.)
+	def show(self):
+		sys.stdout.write('\r[%s%s] %.2f %% / 100%%'%('-'*int(self.p*self.width),' '*self.width-int(self.width*self.p),100*self.p))
+		sys.stdout.flush()
+	def set(self,p):
+		self.p = p
+
