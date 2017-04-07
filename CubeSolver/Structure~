@@ -1,3 +1,0 @@
-Cube.py python class that implements a 2*2*2 magic cube
-q.py python class that implements a q-learning agent, with qtable
-faq.py python class that implements a q-learning agent, with function approximation using neural network
